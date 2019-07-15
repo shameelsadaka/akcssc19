@@ -1,3 +1,21 @@
+.fade-in{
+    opacity:0;
+    transform: translateY(-50%);
+    transition: all 1000ms ease-in; 
+    -webkit-transition: all 1000ms ease-in; 
+}
+.fade-in.left-in{
+    transform: translateX(-50%);
+}
+.fade-in.right-in{
+    transform: translateX(50%);
+}
+
+.fade-in.visible{
+    opacity:1;
+    transform: translate(0,0)!important;
+}
+
 /**
 ****** Header ******
 */
@@ -55,3 +73,100 @@ div.mouse-container{
             -webkit-animation-timing-function:ease-in-out;
             animation-timing-function:ease-in-out;
         }
+
+
+
+@media (max-width:768px) {
+    #akcssc-poster:before {
+        margin-top: 40%!important;
+    }
+    div.mouse{
+        margin-bottom:5px!important;
+    }
+}
+
+
+
+
+
+/**
+****** Venue & Date ******
+*/
+
+.date-venue-row{
+    margin-bottom: 50px;
+}
+
+#akcssc-date-venue .icon:before{
+    font-family: akcssc_icons;
+    font-style: normal;
+    font-weight: 400;
+    display: inline;
+    text-decoration: inherit;
+    text-align: center;
+    font-size:35px;
+    margin-right:0;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 2;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.akcssc-date{
+    color:white;
+    text-align:center;
+    font-size: 22px;
+    line-height: 1.6;
+    font-family: Oswald, sans-serif;
+    font-weight: 200;
+    letter-spacing:2px;
+    display:inline-block;
+    width:50%;
+    float:left;
+}
+    .akcssc-date .icon.icon-calender:before{    
+        content: "\E808";
+    }
+
+.akcssc-venue{
+    display:inline-block;
+    width:50%;
+    float:left;
+    color:white;
+    padding-top: 400px;
+    text-align:center;
+}
+    .akcssc-venue #venue-sjcet{    
+        width:260px;
+    }
+    .akcssc-venue .icon.icon-venue:before{    
+        content: "\E80D";
+    }
+
+@media (max-width:768px) {
+    
+    #akcssc-date-venue .icon:before{
+        font-size: 30px;
+    }
+
+    .akcssc-date,.akcssc-venue{
+        width: 100%;
+        padding: 10px 0;
+        font-size:18px;
+    }
+    
+    .akcssc-venue #venue-sjcet{    
+        width:200px;
+    }
+    #date-venue{
+        margin-left:0!important;
+        margin-right:0!important;
+    }
+}
+
+@media (min-width: 1199.98px){
+    #navigation-level-1{
+        float:right;
+        margin-right:50px;
+    }
+}

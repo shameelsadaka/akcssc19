@@ -133,7 +133,6 @@
             <img id="mobile-logo-light" src="images/logo/ieeecs_white.png" />
             <img id="mobile-logo-dark" src="images/logo/ieeecs.png" />
         </a>
-        <button aria-label="Search" id="search"></button>
         <div class="qtranxs_widget_end"></div> <a id="billetterie-link" class="primary-color-light" href="#"><span>Regsiter Now</span></a>
         <button id="hamburger">
             <div> <span></span>
@@ -144,27 +143,24 @@
         <nav>
             <div id="mobile-slide-container">
                 <div id="navigation-level-1">
-                    <ul id="primary-navigation" class="menu">
-                        <li id="menu-item-1355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1355"><a href="program/index.html">Program</a>
-                        </li>
-                        <li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-156"><a href="the-festival/index.html">The festival</a>
-                        </li>
-                    </ul>
                     <ul id="secondary-navigation" class="menu">
-                        <li id="menu-item-2236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2236"><a href="practical/become-a-volunteer/index.html">Become a volunteer</a>
+                        <li id="menu-item-2236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2236">
+                            <a href="#">Venue</a>
                         </li>
-                        <li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224"><a href="contact/index.html">Contact</a>
+                        <li id="menu-item-224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-224">
+                            <a href="#">Speakers</a>
                         </li>
-                        <li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1789"><a href="shop/index.html">Shop</a>
+                        <li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1789">
+                            <a href="#">Programs</a>
                         </li>
-                        <li id="menu-item-2358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2358"><a href="support-the-festival/partners/index.html">Partners</a>
+                        <li id="menu-item-1789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1789">
+                            <a href="#">About</a>
                         </li>
-                        <li id="menu-item-2366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2366"><a href="practical/index.html">Practical</a>
+                        <li id="menu-item-2358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2358">
+                            <a href="#">Sponsors</a>
                         </li>
-                    </ul>
-                    <ul id="search-mobile">
-                        <li>
-                            <button></button>
+                        <li id="menu-item-2358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2358">
+                            <a href="#">Get In Touch</a>
                         </li>
                     </ul>
                     <div id="header-social">
@@ -287,9 +283,15 @@
             <section id="date-venue">
                 <article id="akcssc-date-venue">
                     <div class="date-venue-row">
-                        <span class="akcssc-date">
-                            <!-- \E808 -->
-                        </span>
+                            <span class="akcssc-date fade-in left-in">
+                                <span class="icon icon-calender"></span><br/>
+                                23,24<br/>AUGUST 2019
+                            </span>
+                            <span class="akcssc-venue fade-in right-in">
+                                <span class="icon icon-venue"></span>
+                                <br/>
+                                <img src="images/logo/sjcet.png" id="venue-sjcet" />
+                            </span>                                        
                     </div>
                     <span class="wave-max"></span>
                 </article>
@@ -666,6 +668,36 @@
             /* ]]> */
         </script>
         <script type='text/javascript' src='js/app.js?ver=1.0.0'></script>
+
+        <script>
+            function onWindowLoad(callback){
+                if (document.readyState!='loading') callback();
+                else if (document.addEventListener) document.addEventListener('DOMContentLoaded', callback);
+                else document.attachEvent('onreadystatechange', function(){
+                    if (document.readyState=='complete') callback();
+                });
+            }
+            var showFadeIn = function(){
+                console.clear();
+                var a = window.innerHeight;
+
+                var x = document.querySelectorAll(".fade-in");
+                for (var i = 0; i < x.length; i++) {
+                    b = x[i].getBoundingClientRect().top +  x[i].offsetHeight/1.5;
+                    if(a > b){
+                        arr = x[i].className.split(" ");
+                        if (arr.indexOf("visible") == -1) {
+                            x[i].className += " visible";
+                        }
+                    }
+                }
+            };
+            window.addEventListener("scroll",showFadeIn);
+            window.addEventListener("resize",showFadeIn);
+            onWindowLoad(showFadeIn);
+        </script>
+        
+        
 </body>
 
 </html>

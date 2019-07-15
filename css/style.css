@@ -1230,10 +1230,10 @@ header#main-header #akcssc-logo #desktop-logo-light {
 	}
 	header#main-header #akcssc-logo #desktop-logo-dark,
 	header#main-header #akcssc-logo #desktop-logo-light {
-		width: 60px;
-		-webkit-flex: 0 0 60px;
-		-ms-flex: 0 0 60px;
-		flex: 0 0 60px;
+		width: 100px;
+		-webkit-flex: 0 0 100px;
+		-ms-flex: 0 0 100px;
+		flex: 0 0 100px;
 		-webkit-align-self: flex-start;
 		-ms-flex-item-align: start;
 		align-self: flex-start
@@ -1369,7 +1369,7 @@ header#main-header #header-social {
 	width: calc(100% + 20px);
 	margin-left: -10px;
 	height: 80px;
-	margin-top: 30px;
+	margin-top: 80px;
 	position: relative
 }
 
@@ -13906,16 +13906,16 @@ div+.constructor2 {
 	-webkit-align-items: flex-start!important;
 	-ms-flex-align: start!important;
 	align-items: flex-start!important;
-	padding-bottom: 120px
+	padding-bottom: 120px;
+	margin:auto;
 }
 
 @media (min-width:0) {
 	#homepage section#date-venue #akcssc-date-venue {
-		-webkit-flex: 0 0 141.66667%;
-		-ms-flex: 0 0 141.66667%;
-		flex: 0 0 141.66667%;
-		max-width: 141.66667%
-	}
+		-webkit-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;	}
 }
 
 @media (min-width:576px) {
@@ -13929,58 +13929,28 @@ div+.constructor2 {
 
 @media (min-width:768px) {
 	#homepage section#date-venue #akcssc-date-venue {
-		-webkit-flex: 0 0 100%;
-		-ms-flex: 0 0 100%;
-		flex: 0 0 100%;
-		max-width: 100%
+		-webkit-flex: 0 0 85%;
+		-ms-flex: 0 0 85%;
+		flex: 0 0 85%;
+		max-width: 85%
 	}
 }
 
 @media (min-width:1025px) {
 	#homepage section#date-venue #akcssc-date-venue {
-		-webkit-flex: 0 0 100%;
-		-ms-flex: 0 0 100%;
-		flex: 0 0 100%;
-		max-width: 100%
+		-webkit-flex: 0 0 78%;
+		-ms-flex: 0 0 78%;
+		flex: 0 0 78%;
+		max-width: 78%
 	}
 }
 
 @media (min-width:1200px) {
 	#homepage section#date-venue #akcssc-date-venue {
-		-webkit-flex: 0 0 100%;
-		-ms-flex: 0 0 100%;
-		flex: 0 0 100%;
-		max-width: 100%
-	}
-}
-
-@media (min-width:0) {
-	#homepage section#date-venue #akcssc-date-venue {
-		margin-left: 8.33333%
-	}
-}
-
-@media (min-width:576px) {
-	#homepage section#date-venue #akcssc-date-venue {
-		margin-left: 16.66667%
-	}
-}
-
-@media (min-width:768px) {
-	#homepage section#date-venue #akcssc-date-venue {
-		margin-left: 16.66667%
-	}
-}
-
-@media (min-width:1025px) {
-	#homepage section#date-venue #akcssc-date-venue {
-		margin-left: 16.66667%
-	}
-}
-
-@media (min-width:1200px) {
-	#homepage section#date-venue #akcssc-date-venue {
-		margin-left: 23.33333%
+		-webkit-flex: 0 0 70%;
+		-ms-flex: 0 0 70%;
+		flex: 0 0 70%;
+		max-width: 70%
 	}
 }
 

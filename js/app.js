@@ -1932,7 +1932,7 @@ webpackJsonp([1], {
                     l()(this, e), this.header = document.querySelector("#main-header");
                     var s = this.header.querySelector("#hamburger"),
                         o = this.header.querySelector("#navigation-level-2 button");
-                    s.addEventListener("click", this.onToggleNav.bind(this)), o.addEventListener("click", this.onBack.bind(this)), this.nav = this.header.querySelector("#main-header nav"), this.onSearchBinded = this.onSearch.bind(this), n()(".language-chooser a").bind("click", this.onSwitchLang), document.querySelector("#search-mobile").addEventListener("click", this.onSearchBinded), document.querySelector("#search").addEventListener("click", this.onSearchBinded), this.wave = t, this.search = i, this.isNavOpen = !1, this.isSubNavOpen = !1, this.rellax = new N.a("#akcssc-trame svg", {
+                    s.addEventListener("click", this.onToggleNav.bind(this)), o.addEventListener("click", this.onBack.bind(this)), this.nav = this.header.querySelector("#main-header nav"), this.onSearchBinded = this.onSearch.bind(this), n()(".language-chooser a").bind("click", this.onSwitchLang),  this.wave = t, this.search = i, this.isNavOpen = !1, this.isSubNavOpen = !1, this.rellax = new N.a("#akcssc-trame svg", {
                         speed: 1,
                         center: !0,
                         round: !1,
