@@ -315,7 +315,7 @@ p a:hover {
 
 #artist-container section article #artist-date a:before,
 #cross-selling>div div:nth-child(2) button:before,
-#homepage #akcssc-updates article p:before,
+#homepage #contact article p:before,
 #homepage #head-artist article>div:first-child:before,
 #stages-programme article h2:before,
 .akcssc-newsletter button .label:before,
@@ -374,7 +374,6 @@ header#main-header #billetterie-link:before {
 	content: "\E803"
 }
 
-#homepage #akcssc-updates article p:before,
 .icon-hand-1:before {
 	content: "\E804"
 }
@@ -507,7 +506,7 @@ form.needs-validation.was-validated .form-control:invalid~.icon:before {
 	content: "\E821"
 }
 
-.icon-message:before {
+#homepage #contact article p:before,.icon-message:before {
 	content: "\E822"
 }
 
@@ -14460,11 +14459,7 @@ div+.constructor2 {
 	display: inline-block
 }
 
-#homepage #akcssc-updates {
-	margin: 150px 0 0
-}
-
-#homepage #akcssc-updates article {
+#homepage #contact article {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -14474,81 +14469,66 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #akcssc-updates article {
-		-webkit-flex: 0 0 83.33333%;
-		-ms-flex: 0 0 83.33333%;
-		flex: 0 0 83.33333%;
-		max-width: 83.33333%
+	#homepage #contact article {
+		-webkit-flex: 0 0 95%;
+		-ms-flex: 0 0 95%;
+		flex: 0 0 95%;
+		max-width: 95%
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article {
-		-webkit-flex: 0 0 83.33333%;
-		-ms-flex: 0 0 83.33333%;
-		flex: 0 0 83.33333%;
-		max-width: 83.33333%
+	#homepage #contact article {
+		-webkit-flex: 0 0 95%;
+		-ms-flex: 0 0 95%;
+		flex: 0 0 95%;
+		max-width: 95%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article {
-		-webkit-flex: 0 0 66.66667%;
-		-ms-flex: 0 0 66.66667%;
-		flex: 0 0 66.66667%;
-		max-width: 66.66667%
+	#homepage #contact article {
+		-webkit-flex: 0 0 83.333333%;
+		-ms-flex: 0 0 83.333333%;
+		flex: 0 0 83.333333%;
+		max-width: 83.333333%
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #akcssc-updates article {
-		-webkit-flex: 0 0 50%;
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%
-	}
-}
-
-@media (min-width:1200px) {
-	#homepage #akcssc-updates article {
-		-webkit-flex: 0 0 50%;
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%
+	#homepage #contact article {
+		-webkit-flex: 0 0 80%;
+		-ms-flex: 0 0 80%;
+		flex: 0 0 80%;
+		max-width: 80%
 	}
 }
 
 @media (min-width:0) {
-	#homepage #akcssc-updates article {
-		margin-left: 8.33333%
+	#homepage #contact article {
+		margin-left: 2.5%
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article {
-		margin-left: 8.33333%
+	#homepage #contact article {
+		margin-left: 2.5%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article {
-		margin-left: 16.66667%
+	#homepage #contact article {
+		margin-left: 8.333333333%
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #akcssc-updates article {
-		margin-left: 25%
+	#homepage #contact article {
+		margin-left: 10%
 	}
 }
 
-@media (min-width:1200px) {
-	#homepage #akcssc-updates article {
-		margin-left: 25%
-	}
-}
-
-#homepage #akcssc-updates article p {
+#homepage #contact article p {
 	font-size: 2.5em;
 	font-family: Oswald, sans-serif;
 	font-weight: 200;
@@ -14562,7 +14542,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -14571,7 +14551,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14580,7 +14560,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14589,7 +14569,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14598,7 +14578,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14607,54 +14587,54 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		margin-left: 8.33333%
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		margin-left: 0
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		margin-left: 0
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		margin-left: 0
 	}
 }
 
 @media (min-width:1200px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		margin-left: 0
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article p {
+	#homepage #contact article p {
 		font-size: 5em
 	}
 }
 
-#homepage #akcssc-updates article p:before {
+#homepage #contact article p:before {
 	display: block;
 	margin: 0 0 10px;
 	font-size: 1em
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article p:before {
+	#homepage #contact article p:before {
 		font-size: .6em
 	}
 }
 
-#homepage #akcssc-updates article .akcssc-newsletter {
+#homepage #contact article .akcssc-newsletter {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -14663,7 +14643,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14672,7 +14652,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14681,7 +14661,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14690,7 +14670,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14699,7 +14679,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -14708,36 +14688,36 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		margin-left: 0
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		margin-left: 0
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		margin-left: 0
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		margin-left: 0
 	}
 }
 
 @media (min-width:1200px) {
-	#homepage #akcssc-updates article .akcssc-newsletter {
+	#homepage #contact article .akcssc-newsletter {
 		margin-left: 16.66667%
 	}
 }
 
-#homepage #akcssc-updates article .akcssc-newsletter>div {
+#homepage #contact article .akcssc-newsletter>div {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -14749,7 +14729,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #akcssc-updates article .akcssc-newsletter>div {
+	#homepage #contact article .akcssc-newsletter>div {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -14758,7 +14738,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article .akcssc-newsletter>div {
+	#homepage #contact article .akcssc-newsletter>div {
 		-webkit-flex: 0 0 79.16667%;
 		-ms-flex: 0 0 79.16667%;
 		flex: 0 0 79.16667%;
@@ -14767,7 +14747,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage #akcssc-updates article .akcssc-newsletter>div {
+	#homepage #contact article .akcssc-newsletter>div {
 		-webkit-flex: 0 0 79.16667%;
 		-ms-flex: 0 0 79.16667%;
 		flex: 0 0 79.16667%;
@@ -14776,7 +14756,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #akcssc-updates article .akcssc-newsletter>div {
+	#homepage #contact article .akcssc-newsletter>div {
 		-webkit-flex: 0 0 79.16667%;
 		-ms-flex: 0 0 79.16667%;
 		flex: 0 0 79.16667%;
@@ -14785,7 +14765,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage #akcssc-updates article .akcssc-newsletter>div {
+	#homepage #contact article .akcssc-newsletter>div {
 		-webkit-flex: 0 0 79.16667%;
 		-ms-flex: 0 0 79.16667%;
 		flex: 0 0 79.16667%;
@@ -14794,13 +14774,13 @@ div+.constructor2 {
 }
 
 @media (max-width:575.98px) {
-	#homepage #akcssc-updates article .akcssc-newsletter button {
+	#homepage #contact article .akcssc-newsletter button {
 		margin: 20px auto 0
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #akcssc-updates article .akcssc-newsletter button {
+	#homepage #contact article .akcssc-newsletter button {
 		margin-top: -16px
 	}
 }
@@ -15078,9 +15058,9 @@ form.needs-validation button {
 #cross-selling>div div:nth-child(2) form.needs-validation input.valid~button,
 #cross-selling>div div:nth-child(2) form.needs-validation input:not(.empty):valid~button,
 #cross-selling>div div:nth-child(2) form.needs-validation textarea:not(.empty):valid~button,
-#homepage #akcssc-updates article form.needs-validation input.valid~p,
-#homepage #akcssc-updates article form.needs-validation input:not(.empty):valid~p,
-#homepage #akcssc-updates article form.needs-validation textarea:not(.empty):valid~p,
+#homepage #contact article form.needs-validation input.valid~p,
+#homepage #contact article form.needs-validation input:not(.empty):valid~p,
+#homepage #contact article form.needs-validation textarea:not(.empty):valid~p,
 #homepage #head-artist form.needs-validation article>input.valid~div:first-child,
 #homepage #head-artist form.needs-validation article>input:not(.empty):valid~div:first-child,
 #homepage #head-artist form.needs-validation article>textarea:not(.empty):valid~div:first-child,
@@ -15096,9 +15076,9 @@ form.needs-validation #artist-container section article #artist-date textarea:no
 form.needs-validation #cross-selling>div div:nth-child(2) input.valid~button,
 form.needs-validation #cross-selling>div div:nth-child(2) input:not(.empty):valid~button,
 form.needs-validation #cross-selling>div div:nth-child(2) textarea:not(.empty):valid~button,
-form.needs-validation #homepage #akcssc-updates article input.valid~p,
-form.needs-validation #homepage #akcssc-updates article input:not(.empty):valid~p,
-form.needs-validation #homepage #akcssc-updates article textarea:not(.empty):valid~p,
+form.needs-validation #homepage #contact article input.valid~p,
+form.needs-validation #homepage #contact article input:not(.empty):valid~p,
+form.needs-validation #homepage #contact article textarea:not(.empty):valid~p,
 form.needs-validation #homepage #head-artist article>input.valid~div:first-child,
 form.needs-validation #homepage #head-artist article>input:not(.empty):valid~div:first-child,
 form.needs-validation #homepage #head-artist article>textarea:not(.empty):valid~div:first-child,
@@ -15181,13 +15161,13 @@ form.needs-validation .form-success {
 
 #artist-container section article #artist-date form.needs-validation a,
 #cross-selling>div div:nth-child(2) form.needs-validation button,
-#homepage #akcssc-updates article form.needs-validation p,
+#homepage #contact article form.needs-validation p,
 #homepage #head-artist form.needs-validation article>div:first-child,
 #stages-programme article form.needs-validation h2,
 .akcssc-newsletter button form.needs-validation .label,
 form.needs-validation #artist-container section article #artist-date a,
 form.needs-validation #cross-selling>div div:nth-child(2) button,
-form.needs-validation #homepage #akcssc-updates article p,
+form.needs-validation #homepage #contact article p,
 form.needs-validation #homepage #head-artist article>div:first-child,
 form.needs-validation #stages-programme article h2,
 form.needs-validation .akcssc-newsletter button .label,
@@ -15218,13 +15198,13 @@ header#main-header form.needs-validation #search {
 
 #artist-container section article #artist-date form.needs-validation a:before,
 #cross-selling>div div:nth-child(2) form.needs-validation button:before,
-#homepage #akcssc-updates article form.needs-validation p:before,
+#homepage #contact article form.needs-validation p:before,
 #homepage #head-artist form.needs-validation article>div:first-child:before,
 #stages-programme article form.needs-validation h2:before,
 .akcssc-newsletter button form.needs-validation .label:before,
 form.needs-validation #artist-container section article #artist-date a:before,
 form.needs-validation #cross-selling>div div:nth-child(2) button:before,
-form.needs-validation #homepage #akcssc-updates article p:before,
+form.needs-validation #homepage #contact article p:before,
 form.needs-validation #homepage #head-artist article>div:first-child:before,
 form.needs-validation #stages-programme article h2:before,
 form.needs-validation .akcssc-newsletter button .label:before,
@@ -15251,13 +15231,13 @@ header#main-header form.needs-validation #search:before {
 
 #artist-container section article #artist-date form.needs-validation .datepicker input~a,
 #cross-selling>div div:nth-child(2) form.needs-validation .datepicker input~button,
-#homepage #akcssc-updates article form.needs-validation .datepicker input~p,
+#homepage #contact article form.needs-validation .datepicker input~p,
 #homepage #head-artist form.needs-validation .datepicker article>input~div:first-child,
 #stages-programme article form.needs-validation .datepicker input~h2,
 .akcssc-newsletter button form.needs-validation .datepicker input~.label,
 form.needs-validation .datepicker #artist-container section article #artist-date input~a,
 form.needs-validation .datepicker #cross-selling>div div:nth-child(2) input~button,
-form.needs-validation .datepicker #homepage #akcssc-updates article input~p,
+form.needs-validation .datepicker #homepage #contact article input~p,
 form.needs-validation .datepicker #homepage #head-artist article>input~div:first-child,
 form.needs-validation .datepicker #stages-programme article input~h2,
 form.needs-validation .datepicker .akcssc-newsletter button input~.label,
@@ -15300,13 +15280,13 @@ form.needs-validation.was-validated .custom-select:invalid {
 
 #artist-container section article #artist-date form.needs-validation.was-validated .form-control:valid~a,
 #cross-selling>div div:nth-child(2) form.needs-validation.was-validated .form-control:valid~button,
-#homepage #akcssc-updates article form.needs-validation.was-validated .form-control:valid~p,
+#homepage #contact article form.needs-validation.was-validated .form-control:valid~p,
 #homepage #head-artist form.needs-validation.was-validated article>.form-control:valid~div:first-child,
 #stages-programme article form.needs-validation.was-validated .form-control:valid~h2,
 .akcssc-newsletter button form.needs-validation.was-validated .form-control:valid~.label,
 form.needs-validation.was-validated #artist-container section article #artist-date .form-control:valid~a,
 form.needs-validation.was-validated #cross-selling>div div:nth-child(2) .form-control:valid~button,
-form.needs-validation.was-validated #homepage #akcssc-updates article .form-control:valid~p,
+form.needs-validation.was-validated #homepage #contact article .form-control:valid~p,
 form.needs-validation.was-validated #homepage #head-artist article>.form-control:valid~div:first-child,
 form.needs-validation.was-validated #stages-programme article .form-control:valid~h2,
 form.needs-validation.was-validated .akcssc-newsletter button .form-control:valid~.label,
@@ -15348,13 +15328,13 @@ form.needs-validation.was-validated .form-control:invalid~label {
 
 #artist-container section article #artist-date form.needs-validation.was-validated .form-control:invalid~a,
 #cross-selling>div div:nth-child(2) form.needs-validation.was-validated .form-control:invalid~button,
-#homepage #akcssc-updates article form.needs-validation.was-validated .form-control:invalid~p,
+#homepage #contact article form.needs-validation.was-validated .form-control:invalid~p,
 #homepage #head-artist form.needs-validation.was-validated article>.form-control:invalid~div:first-child,
 #stages-programme article form.needs-validation.was-validated .form-control:invalid~h2,
 .akcssc-newsletter button form.needs-validation.was-validated .form-control:invalid~.label,
 form.needs-validation.was-validated #artist-container section article #artist-date .form-control:invalid~a,
 form.needs-validation.was-validated #cross-selling>div div:nth-child(2) .form-control:invalid~button,
-form.needs-validation.was-validated #homepage #akcssc-updates article .form-control:invalid~p,
+form.needs-validation.was-validated #homepage #contact article .form-control:invalid~p,
 form.needs-validation.was-validated #homepage #head-artist article>.form-control:invalid~div:first-child,
 form.needs-validation.was-validated #stages-programme article .form-control:invalid~h2,
 form.needs-validation.was-validated .akcssc-newsletter button .form-control:invalid~.label,
