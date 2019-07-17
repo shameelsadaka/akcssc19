@@ -133,7 +133,7 @@ div.mouse-container{
     width:50%;
     float:left;
     color:white;
-    padding-top: 400px;
+    padding-top: 100px;
     text-align:center;
 }
     .akcssc-venue #venue-sjcet{    
@@ -169,4 +169,54 @@ div.mouse-container{
         float:right;
         margin-right:50px;
     }
+}
+
+
+/**
+******* Speakers ******
+*/
+.figure-details{
+    font-family: Oswald, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    letter-spacing: 0.28px;
+    width: auto;
+    z-index: 45;
+    transform: translateY(-100px);
+    float: right;
+    max-width: 65%;
+    margin-right: 20%;
+    float: right;
+    color: #232323;
+    padding: 5px 12px;
+    border-radius: 30px;
+    background: #EAEAEA;
+}
+
+
+@media (max-width:575.98px) {
+    .figure-details{
+        padding: 5px 18px;
+        max-width: 60%;
+        transform: translateY(-80px);
+        margin-right: 0;
+        background: #EAEAEA;
+        font-size:12px;
+    }
+}
+
+@media (min-width:575.98px) {
+    #homepage #head-artist article>div a {
+        margin-top: 20%;
+    }
+    #homepage #head-artist article>div:nth-child(1) a:nth-of-type(1),
+    #homepage #head-artist article>div:nth-child(2) a:nth-of-type(2),
+    #homepage #head-artist article>div:nth-child(2) a:nth-of-type(1) {
+        margin-top: 0;
+    }    
+    #homepage #head-artist article>div:nth-child(1) a:nth-of-type(2) {
+        margin-top: 75%;
+    }    
 }

@@ -386,7 +386,6 @@ header#main-header #billetterie-link:before {
 }
 
 #cross-selling>div div:nth-child(2) button:before,
-#homepage #head-artist article>div:first-child:before,
 .icon-arrow:before {
 	content: "\E806"
 }
@@ -8302,7 +8301,7 @@ header#main-header #partners h2#search {
 #date-venue section,
 #partner section,
 #shop section,
-#template section {
+#template section, .template-section {
 	width: 100%;
 	padding-right: 10px;
 	padding-left: 10px;
@@ -8315,7 +8314,7 @@ header#main-header #partners h2#search {
 	#date-venue section,
 	#partner section,
 	#shop section,
-	#template section {
+	#template section, .template-section {
 		max-width: 100%
 	}
 }
@@ -8325,7 +8324,7 @@ header#main-header #partners h2#search {
 	#date-venue section,
 	#partner section,
 	#shop section,
-	#template section {
+	#template section, .template-section {
 		max-width: 100%
 	}
 }
@@ -8335,7 +8334,7 @@ header#main-header #partners h2#search {
 	#date-venue section,
 	#partner section,
 	#shop section,
-	#template section {
+	#template section, .template-section {
 		max-width: 960px
 	}
 }
@@ -8345,7 +8344,7 @@ header#main-header #partners h2#search {
 	#date-venue section,
 	#partner section,
 	#shop section,
-	#template section {
+	#template section, .template-section {
 		max-width: 1200px
 	}
 }
@@ -8355,7 +8354,7 @@ header#main-header #partners h2#search {
 	#date-venue section header.news h1,
 	#partner section header.news h1,
 	#shop section header.news h1,
-	#template section header.news h1 {
+	#template section, .template-section header.news h1 {
 		margin-left: 0
 	}
 }
@@ -8365,7 +8364,7 @@ header#main-header #partners h2#search {
 	#date-venue section header.news h1,
 	#partner section header.news h1,
 	#shop section header.news h1,
-	#template section header.news h1 {
+	#template section, .template-section header.news h1 {
 		margin-left: 8.33333%
 	}
 }
@@ -8375,7 +8374,7 @@ header#main-header #partners h2#search {
 	#date-venue section header.news h1,
 	#partner section header.news h1,
 	#shop section header.news h1,
-	#template section header.news h1 {
+	#template section, .template-section header.news h1 {
 		margin-left: 8.33333%
 	}
 }
@@ -8385,7 +8384,7 @@ header#main-header #partners h2#search {
 	#date-venue section header.news h1,
 	#partner section header.news h1,
 	#shop section header.news h1,
-	#template section header.news h1 {
+	#template section, .template-section header.news h1 {
 		margin-left: 25%
 	}
 }
@@ -8395,7 +8394,7 @@ header#main-header #partners h2#search {
 	#date-venue section header.news h1,
 	#partner section header.news h1,
 	#shop section header.news h1,
-	#template section header.news h1 {
+	#template section, .template-section header.news h1 {
 		margin-left: 25%
 	}
 }
@@ -8404,7 +8403,7 @@ header#main-header #partners h2#search {
 #date-venue section header h1,
 #partner section header h1,
 #shop section header h1,
-#template section header h1 {
+#template section, .template-section header h1 {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -8419,7 +8418,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -8432,7 +8431,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8445,7 +8444,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -8458,7 +8457,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -8471,7 +8470,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -8484,7 +8483,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		margin-left: 0
 	}
 }
@@ -8494,7 +8493,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		margin-left: 8.33333%
 	}
 }
@@ -8504,7 +8503,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		margin-left: 8.33333%
 	}
 }
@@ -8514,7 +8513,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		margin-left: 16.66667%
 	}
 }
@@ -8524,7 +8523,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		margin-left: 16.66667%
 	}
 }
@@ -8534,7 +8533,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		padding: 0;
 		overflow: hidden
 	}
@@ -8545,7 +8544,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1,
 	#partner section header h1,
 	#shop section header h1,
-	#template section header h1 {
+	#template section, .template-section header h1 {
 		margin-bottom: 100px;
 		margin-top: 50px
 	}
@@ -8555,7 +8554,7 @@ header#main-header #partners h2#search {
 #date-venue section header h1 .step,
 #partner section header h1 .step,
 #shop section header h1 .step,
-#template section header h1 .step {
+#template section, .template-section header h1 .step {
 	position: absolute;
 	-webkit-transform: rotate(-90deg) translateY(-75%);
 	transform: rotate(-90deg) translateY(-75%);
@@ -8576,7 +8575,7 @@ header#main-header #partners h2#search {
 	#date-venue section header h1 .step,
 	#partner section header h1 .step,
 	#shop section header h1 .step,
-	#template section header h1 .step {
+	#template section, .template-section header h1 .step {
 		-webkit-transform: rotate(-90deg) translateY(-20%);
 		transform: rotate(-90deg) translateY(-20%)
 	}
@@ -8586,7 +8585,7 @@ header#main-header #partners h2#search {
 #date-venue section header p,
 #partner section header p,
 #shop section header p,
-#template section header p {
+#template section, .template-section header p {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -8601,7 +8600,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -8614,7 +8613,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8627,7 +8626,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8640,7 +8639,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		-webkit-flex: 0 0 58.33333%;
 		-ms-flex: 0 0 58.33333%;
 		flex: 0 0 58.33333%;
@@ -8653,7 +8652,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		-webkit-flex: 0 0 58.33333%;
 		-ms-flex: 0 0 58.33333%;
 		flex: 0 0 58.33333%;
@@ -8666,7 +8665,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		margin-left: 0
 	}
 }
@@ -8676,7 +8675,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		margin-left: 8.33333%
 	}
 }
@@ -8686,7 +8685,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		margin-left: 8.33333%
 	}
 }
@@ -8696,7 +8695,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		margin-left: 25%
 	}
 }
@@ -8706,7 +8705,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p,
 	#partner section header p,
 	#shop section header p,
-	#template section header p {
+	#template section, .template-section header p {
 		margin-left: 25%
 	}
 }
@@ -8715,7 +8714,7 @@ header#main-header #partners h2#search {
 #date-venue section header p:not(:empty),
 #partner section header p:not(:empty),
 #shop section header p:not(:empty),
-#template section header p:not(:empty) {
+#template section, .template-section header p:not(:empty) {
 	margin-bottom: 40px
 }
 
@@ -8724,7 +8723,7 @@ header#main-header #partners h2#search {
 	#date-venue section header p:not(:empty),
 	#partner section header p:not(:empty),
 	#shop section header p:not(:empty),
-	#template section header p:not(:empty) {
+	#template section, .template-section header p:not(:empty) {
 		margin-bottom: 90px
 	}
 }
@@ -8733,7 +8732,7 @@ header#main-header #partners h2#search {
 #date-venue section header #date-venue-header,
 #partner section header #date-venue-header,
 #shop section header #date-venue-header,
-#template section header #date-venue-header {
+#template section, .template-section header #date-venue-header {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -8753,7 +8752,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8766,7 +8765,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8779,7 +8778,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8792,7 +8791,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8805,7 +8804,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8818,7 +8817,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		margin-left: 0
 	}
 }
@@ -8828,7 +8827,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		margin-left: 8.33333%
 	}
 }
@@ -8838,7 +8837,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		margin-left: 8.33333%
 	}
 }
@@ -8848,7 +8847,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		margin-left: 8.33333%
 	}
 }
@@ -8858,7 +8857,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		margin-left: 8.33333%
 	}
 }
@@ -8868,7 +8867,7 @@ header#main-header #partners h2#search {
 	#date-venue section header #date-venue-header,
 	#partner section header #date-venue-header,
 	#shop section header #date-venue-header,
-	#template section header #date-venue-header {
+	#template section, .template-section header #date-venue-header {
 		margin-bottom: -70px;
 		margin-top: 0
 	}
@@ -8878,7 +8877,7 @@ header#main-header #partners h2#search {
 #date-venue section header #date-venue-header .news-date ul:after,
 #partner section header #date-venue-header .news-date ul:after,
 #shop section header #date-venue-header .news-date ul:after,
-#template section header #date-venue-header .news-date ul:after {
+#template section, .template-section header #date-venue-header .news-date ul:after {
 	bottom: -6px;
 	right: -6px;
 	left: 20%;
@@ -8889,7 +8888,7 @@ header#main-header #partners h2#search {
 #date-venue section header #date-venue-header a,
 #partner section header #date-venue-header a,
 #shop section header #date-venue-header a,
-#template section header #date-venue-header a {
+#template section, .template-section header #date-venue-header a {
 	color: #1e1e1e;
 	margin-left: 30px;
 	font-size: 1.4em;
@@ -8901,7 +8900,7 @@ header#main-header #partners h2#search {
 #date-venue section .b-lazy,
 #partner section .b-lazy,
 #shop section .b-lazy,
-#template section .b-lazy {
+#template section, .template-section .b-lazy {
 	opacity: 0;
 	transition: opacity .25s
 }
@@ -8910,7 +8909,7 @@ header#main-header #partners h2#search {
 #date-venue section .b-loaded,
 #partner section .b-loaded,
 #shop section .b-loaded,
-#template section .b-loaded {
+#template section, .template-section .b-loaded {
 	opacity: 1
 }
 
@@ -8918,7 +8917,7 @@ header#main-header #partners h2#search {
 #date-venue section h3,
 #partner section h3,
 #shop section h3,
-#template section h3 {
+#template section, .template-section h3 {
 	font-size: 2em;
 	font-family: Poppins, sans-serif;
 	font-weight: 600
@@ -8928,7 +8927,7 @@ header#main-header #partners h2#search {
 #date-venue section h2,
 #partner section h2,
 #shop section h2,
-#template section h2 {
+#template section, .template-section h2 {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -8944,7 +8943,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -8957,7 +8956,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8970,7 +8969,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8983,7 +8982,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -8996,7 +8995,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -9009,7 +9008,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		margin-left: 0
 	}
 }
@@ -9019,7 +9018,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		margin-left: 8.33333%
 	}
 }
@@ -9029,7 +9028,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		margin-left: 8.33333%
 	}
 }
@@ -9039,7 +9038,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		margin-left: 8.33333%
 	}
 }
@@ -9049,7 +9048,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		margin-left: 8.33333%
 	}
 }
@@ -9059,7 +9058,7 @@ header#main-header #partners h2#search {
 	#date-venue section h2,
 	#partner section h2,
 	#shop section h2,
-	#template section h2 {
+	#template section, .template-section h2 {
 		margin-top: 100px
 	}
 }
@@ -9068,7 +9067,7 @@ header#main-header #partners h2#search {
 #date-venue section article,
 #partner section article,
 #shop section article,
-#template section article {
+#template section, .template-section article {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -9083,7 +9082,7 @@ header#main-header #partners h2#search {
 #date-venue section#post-404,
 #partner section#post-404,
 #shop section#post-404,
-#template section#post-404 {
+#template section, .template-section#post-404 {
 	display: block
 }
 
@@ -9091,7 +9090,7 @@ header#main-header #partners h2#search {
 #date-venue section#post-404 h1,
 #partner section#post-404 h1,
 #shop section#post-404 h1,
-#template section#post-404 h1 {
+#template section, .template-section#post-404 h1 {
 	margin-bottom: 50px;
 	padding-left: 0;
 	margin-right: 0
@@ -9101,7 +9100,7 @@ header#main-header #partners h2#search {
 #date-venue section#post-404 .button-404,
 #partner section#post-404 .button-404,
 #shop section#post-404 .button-404,
-#template section#post-404 .button-404 {
+#template section, .template-section#post-404 .button-404 {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -9114,7 +9113,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -9127,7 +9126,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		-webkit-flex: 0 0 83.33333%;
 		-ms-flex: 0 0 83.33333%;
 		flex: 0 0 83.33333%;
@@ -9140,7 +9139,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -9153,7 +9152,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -9166,7 +9165,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -9179,7 +9178,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		margin-left: 0
 	}
 }
@@ -9189,7 +9188,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		margin-left: 8.33333%
 	}
 }
@@ -9199,7 +9198,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		margin-left: 8.33333%
 	}
 }
@@ -9209,7 +9208,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		margin-left: 16.66667%
 	}
 }
@@ -9219,7 +9218,7 @@ header#main-header #partners h2#search {
 	#date-venue section#post-404 .button-404,
 	#partner section#post-404 .button-404,
 	#shop section#post-404 .button-404,
-	#template section#post-404 .button-404 {
+	#template section, .template-section#post-404 .button-404 {
 		margin-left: 16.66667%
 	}
 }
@@ -13201,27 +13200,6 @@ div+.constructor2 {
 	right: auto
 }
 
-#homepage #head-artist article>div:first-child:before {
-	position: absolute;
-	bottom: 0;
-	left: 25%;
-	-webkit-transform: rotate(-90deg);
-	transform: rotate(-90deg);
-	opacity: 0
-}
-
-@media (min-width:576px) {
-	#homepage #head-artist article>div:first-child:before {
-		opacity: 1
-	}
-}
-
-@media (min-width:768px) {
-	#homepage #head-artist article>div:first-child:before {
-		bottom: -10%
-	}
-}
-
 @media (min-width:576px) {
 	#homepage #head-artist article>div:nth-child(2) a:first-of-type {
 		margin-bottom: 70px
@@ -13882,7 +13860,7 @@ div+.constructor2 {
 	}
 }
 
-#homepage section {
+.home-section {
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
@@ -13893,11 +13871,11 @@ div+.constructor2 {
 	margin-left: -10px
 }
 
-#homepage section#date-venue {
+.home-section#date-venue {
 	overflow: hidden
 }
 
-#homepage section#date-venue #akcssc-date-venue {
+.home-section#date-venue #akcssc-date-venue {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -13911,7 +13889,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage section#date-venue #akcssc-date-venue {
+	.home-section#date-venue #akcssc-date-venue {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13919,7 +13897,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage section#date-venue #akcssc-date-venue {
+	.home-section#date-venue #akcssc-date-venue {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13928,7 +13906,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage section#date-venue #akcssc-date-venue {
+	.home-section#date-venue #akcssc-date-venue {
 		-webkit-flex: 0 0 85%;
 		-ms-flex: 0 0 85%;
 		flex: 0 0 85%;
@@ -13937,7 +13915,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage section#date-venue #akcssc-date-venue {
+	.home-section#date-venue #akcssc-date-venue {
 		-webkit-flex: 0 0 78%;
 		-ms-flex: 0 0 78%;
 		flex: 0 0 78%;
@@ -13946,7 +13924,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage section#date-venue #akcssc-date-venue {
+	.home-section#date-venue #akcssc-date-venue {
 		-webkit-flex: 0 0 70%;
 		-ms-flex: 0 0 70%;
 		flex: 0 0 70%;
@@ -13955,22 +13933,22 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage section#date-venue #akcssc-date-venue {
-		margin-bottom: 30px
+	.home-section#date-venue #akcssc-date-venue {
+		margin-bottom: 80px
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage section#date-venue #akcssc-date-venue {
-		padding-bottom: 180px
+	.home-section#date-venue #akcssc-date-venue {
+		padding-bottom: 220px
 	}
 }
 
-#homepage section#date-venue #akcssc-date-venue .slick-list.draggable {
+.home-section#date-venue #akcssc-date-venue .slick-list.draggable {
 	overflow: visible!important
 }
 
-#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 	-webkit-justify-content: flex-start;
 	-ms-flex-pack: start;
 	justify-content: flex-start;
@@ -13986,7 +13964,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+	.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -13995,7 +13973,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+	.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -14004,7 +13982,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+	.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -14013,7 +13991,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+	.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -14022,7 +14000,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+	.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -14031,14 +14009,14 @@ div+.constructor2 {
 }
 
 @media (max-width:575.98px) {
-	#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+	.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 		-ms-flex-preferred-size: auto!important;
 		flex-basis: auto!important
 	}
 }
 
 @media (min-width:768px) {
-	#homepage section#date-venue #akcssc-date-venue .akcssc-slider-nav {
+	.home-section#date-venue #akcssc-date-venue .akcssc-slider-nav {
 		-webkit-justify-content: flex-end;
 		-ms-flex-pack: end;
 		justify-content: flex-end
@@ -20726,50 +20704,50 @@ main {
 	height: auto
 }
 
-#akcssc-trame svg#CA {
+#akcssc-trame svg#AK {
 	top: -5vw;
 	left: -3vw;
 	width: 47%
 }
 
 @media (min-width:576px) {
-	#akcssc-trame svg#CA {
+	#akcssc-trame svg#AK {
 		width: 27%
 	}
 }
 
-#akcssc-trame svg#RI {
+#akcssc-trame svg#CS {
 	top: 40vh;
 	right: -3vw;
 	width: 42%
 }
 
 @media (min-width:576px) {
-	#akcssc-trame svg#RI {
+	#akcssc-trame svg#CS {
 		width: 22%
 	}
 }
 
-#akcssc-trame svg#BA {
+#akcssc-trame svg#SC {
 	top: 80vh;
 	left: -3vw;
 	width: 45%
 }
 
 @media (min-width:576px) {
-	#akcssc-trame svg#BA {
+	#akcssc-trame svg#SC {
 		width: 25%
 	}
 }
 
-#akcssc-trame svg#NA {
+#akcssc-trame svg#tempbox {
 	top: 120vh;
 	right: -3vw;
 	width: 42%
 }
 
 @media (min-width:576px) {
-	#akcssc-trame svg#NA {
+	#akcssc-trame svg#tempbox {
 		width: 22%
 	}
 }
