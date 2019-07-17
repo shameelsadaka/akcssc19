@@ -174,112 +174,23 @@ webpackJsonp([1], {
                 return b()(t, e), h()(t, [{
                     key: "init",
                     value: function() {
-                        n()("#artist-container").toggleClass("enter", !0), n()(".picture button").bind("click", this.bindedPlay), n()("#artist-container .close-btn").bind("click", this.bindedClose), this.simpleBar = new P.a(document.querySelector("#artist-scroll")), this.tl = new TimelineMax({
-                            delay: .6
-                        }), y.isMobile() ? (this.tl.set(n()("#hand-loader"), {
-                            display: "none",
-                            opacity: 0
-                        }), this.tl.set(n()("#hand-loader path"), {
-                            "stroke-dashoffset": 2e4
-                        }), this.tl.to(n()("#artist-container"), .35, {
-                            opacity: 1
-                        })) : (L.c.set(n()("#artist-shape"), {
-                            opacity: 0
-                        }), L.c.set(n()("#artist-detail"), {
-                            opacity: 0
-                        }), L.c.set(n()("#artist-image"), {
-                            opacity: 0
-                        }), 0 === n()(".artist.active").length ? L.c.set("#artist-container", {
-                            opacity: 1,
-                            backgroundColor: "#ffffff"
-                        }) : L.c.set("#artist-container", {
-                            opacity: 1,
-                            backgroundColor: "transparent"
-                        }), this.tl.to(n()("#artist-image"), .01, {
-                            opacity: 1
-                        }), this.tl.set(n()("#hand-loader"), {
-                            display: "none"
-                        }), this.tl.set(n()("#hand-loader path"), {
-                            "stroke-dashoffset": 2e4
-                        }), this.tl.to(n()("#artist-image"), .5, {
-                            rotationZ: .01,
-                            z: .1,
-                            y: "0%",
-                            startAt: {
-                                y: "110%"
-                            },
-                            ease: Power3.easeOut
-                        }, 0), this.tl.to(n()("#artist-image .picture"), .5, {
-                            rotationZ: .01,
-                            z: -.1,
-                            y: "0%",
-                            startAt: {
-                                y: "-100%"
-                            },
-                            ease: Power3.easeOut
-                        }, 0), this.tl.set(n()("#artist-container"), {
-                            backgroundColor: "#ffffff"
-                        }), this.tl.addLabel("shape"), this.tl.to(n()("#artist-shape"), .5, {
-                            rotationZ: .01,
-                            z: .1,
-                            y: "0%",
-                            startAt: {
-                                y: "100%",
-                                opacity: 1
-                            },
-                            ease: Power3.easeOut
-                        }, "shape-=.35"), this.tl.to(n()("#artist-shape > span"), .5, {
-                            rotationZ: .01,
-                            z: .1,
-                            y: "0%",
-                            startAt: {
-                                y: "-100%"
-                            },
-                            ease: Power3.easeOut
-                        }, "shape-=.35"), this.tl.to(n()("#artist-detail"), .35, {
-                            opacity: 1
-                        }), this.tl.addCallback(function() {
-                            n()("#artist-image").toggleClass("active", !0)
-                        })), this.tl.set(n()("#circle-bg span"), {
-                            scale: 0
-                        }), this.tl.set(n()("#circle-bg"), {
-                            display: "none"
-                        })
+                        return true;
                     }
                 }, {
                     key: "onClose",
-                    value: function(e) {
-                        var t = this;
-                        return e.preventDefault(), L.c.to(n()("#artist-container"), .2, {
-                            ease: Power2.easeIn,
-                            opacity: 0,
-                            onComplete: function() {
-                                var e = window.location.pathname.split("/"),
-                                    i = "";
-                                i = e.length > 5 ? e.splice(0, 4).join("/") + "/" : e.splice(0, 2).join("/") + "/", window.history.pushState({}, "", i), t.destroy()
-                            }
-                        }), !1
-                    }
+                    value: function(e) {return true;}
                 }, {
                     key: "onClosePlayer",
-                    value: function(e) {
-                        n()("#close-video").unbind("click", this.bindedStop), n()("#artist-image").toggleClass("deploy", !1), n()(".close-btn").css("display", "block"), n()("#close-video").css("display", "none"), n()("#artist-image iframe")[0].src = this.baseSRC
-                    }
+                    value: function(e) {return true;}
                 }, {
                     key: "onPlayer",
                     value: function() {
-                        n()(".close-btn").css("display", "none"), n()("#close-video").css("display", "block"), n()("#close-video").bind("click", this.bindedStop), n()("#artist-image").toggleClass("deploy", !0), setTimeout(function() {
-                            n()("#artist-image iframe")[0].src = n()("#artist-image iframe").data("src")
-                        }, 500)
+                        return true;
                     }
                 }, {
                     key: "destroy",
                     value: function() {
-                        this.tl && (this.tl.kill(), this.tl = null), L.c.set(n()("#circle-bg span"), {
-                            scale: 0
-                        }), L.c.set(n()("#circle-bg"), {
-                            display: "none"
-                        }), document.body.classList.remove("no-scroll"), n()("#artist-container").empty(), n()("#artist-container").toggleClass("enter", !1), n()("#close-video").unbind("click", this.bindedStop), n()(".picture button").unbind("click", this.bindedPlay), n()("#artist-container .close-btn").unbind("click", this.bindedClose), this.bindedClose = null, this.bindedPlay = null, this.bindedStop = null, d()(t.prototype.__proto__ || a()(t.prototype), "destroy", this).call(this)
+                        return true;
                     }
                 }]), t
             }(x),
@@ -988,33 +899,7 @@ webpackJsonp([1], {
                                 y: 10
                             }, "-=.1")
                         }), n()(".artist").bind("click", function(t) {
-                            t.preventDefault(), n()(t.currentTarget).toggleClass("active", !0), n()(".artist").toggleClass("active", !1);
-                            var i = Math.abs(n()(window).scrollTop() - t.pageY),
-                                s = Math.abs(t.pageX),
-                                o = new L.b;
-                            return o.set("#hand-loader", {
-                                display: "block",
-                                opacity: 1
-                            }), o.set("#circle-bg", {
-                                display: "block"
-                            }), o.to("#circle-bg span", 1, {
-                                ease: Sine.easeInOut,
-                                backgroundColor: "rgb(255,255,255)",
-                                rotationZ: 1,
-                                z: 1,
-                                scale: 12,
-                                x: "-50%",
-                                y: "-50%",
-                                startAt: {
-                                    scale: .01,
-                                    width: 500,
-                                    height: 500,
-                                    left: s,
-                                    top: i
-                                }
-                            }), setTimeout(function() {
-                                e.childContentLoader.setState(t.currentTarget.pathname), e.childContentLoader.loadPage(t.currentTarget.pathname, 2)
-                            }), !1
+                            return false;
                         }), n()("footer .akcssc-newsletter").css({
                             height: 0,
                             overflow: "hidden",
@@ -2031,9 +1916,7 @@ webpackJsonp([1], {
                 }
             }, {
                 key: "onNavigation",
-                value: function(e) {
-                    this.switchPage(e)
-                }
+                value: function(e) {return true;}
             }, {
                 key: "initScrollerNav",
                 value: function() {}

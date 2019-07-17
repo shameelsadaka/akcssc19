@@ -175,6 +175,9 @@ div.mouse-container{
 /**
 ******* Speakers ******
 */
+#homepage #head-artist article>div a {
+    cursor:auto;
+}
 .figure-details{
     font-family: Oswald, sans-serif;
     font-size: 14px;
