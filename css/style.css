@@ -118,7 +118,7 @@
 }
 
 h1 {
-	font-size: 6em;
+	font-size: 4em;
 	line-height: 1em;
 	letter-spacing: .03em;
 	margin: 0;
@@ -128,20 +128,19 @@ h1 {
 
 @media (min-width:576px) {
 	h1 {
-		font-size: 7em
+		font-size: 4em
+	}
+}
+
+@media (min-width:720px) {
+	h1 {
+		font-size: 5em
 	}
 }
 
 @media (min-width:1200px) {
 	h1 {
-		font-size: 8em
-	}
-}
-
-@media (min-width:1200px) {
-	#programme h1,
-	h1 {
-		font-size: 10em
+		font-size: 6em
 	}
 }
 
