@@ -238,7 +238,7 @@ header#main-header h2.big#search:before {
 }
 
 #accordion article .card .card-header h3 button,
-#homepage #head-artist article>div a figure figcaption div time .day,
+#homepage #speakers article>div a figure figcaption div time .day,
 #special-offer article #offer-detail .offer-title,
 #stages-programme article a figure figcaption div time .day,
 .poppins-semibold,
@@ -252,7 +252,7 @@ footer #footer-container #footer-row nav ul:first-child li a {
 }
 
 #accordion article .card .card-body,
-#homepage #head-artist article>div a figure figcaption div time .hour,
+#homepage #speakers article>div a figure figcaption div time .hour,
 #stages-programme article a figure figcaption div time .hour,
 #sticky-social ul li:first-child,
 .poppins-regular,
@@ -316,7 +316,7 @@ p a:hover {
 #artist-container section article #artist-date a:before,
 #cross-selling>div div:nth-child(2) button:before,
 #homepage #contact article p:before,
-#homepage #head-artist article>div:first-child:before,
+#homepage #speakers article>div:first-child:before,
 #stages-programme article h2:before,
 .akcssc-newsletter button .label:before,
 .facebook:before,
@@ -12884,7 +12884,7 @@ div+.constructor2 {
 	opacity: 0
 }
 
-#homepage #head-artist {
+#homepage #speakers {
 	position: relative;
 	width: 100%;
 	padding-right: 10px;
@@ -12894,36 +12894,36 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist {
+	#homepage #speakers {
 		max-width: 100%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist {
+	#homepage #speakers {
 		max-width: 100%
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist {
+	#homepage #speakers {
 		max-width: 960px
 	}
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist {
+	#homepage #speakers {
 		max-width: 1200px
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist {
+	#homepage #speakers {
 		margin-bottom: 50px
 	}
 }
 
-#homepage #head-artist article {
+#homepage #speakers article {
 	overflow: hidden;
 	position: relative;
 	width: 100%;
@@ -12933,7 +12933,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #head-artist article {
+	#homepage #speakers article {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -12942,7 +12942,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article {
+	#homepage #speakers article {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -12951,7 +12951,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article {
+	#homepage #speakers article {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -12960,7 +12960,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article {
+	#homepage #speakers article {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -12969,7 +12969,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist article {
+	#homepage #speakers article {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -12978,7 +12978,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article {
+	#homepage #speakers article {
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
@@ -12988,65 +12988,65 @@ div+.constructor2 {
 	}
 }
 
-#homepage #head-artist article h2 {
+#homepage #speakers article h2 {
 	text-align: center
 }
 
-#homepage #head-artist article h2:before {
+#homepage #speakers article h2:before {
 	display: block;
 	margin-bottom: 10px
 }
 
 @media (max-width:575.98px) {
-	#homepage #head-artist article h2:before {
+	#homepage #speakers article h2:before {
 		font-size: 130%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article h2 {
+	#homepage #speakers article h2 {
 		text-align: left
 	}
 }
 
 @media (min-width:768px) and (min-width:0) {
-	#homepage #head-artist article h2 {
+	#homepage #speakers article h2 {
 		margin-left: 6.66667%
 	}
 }
 
 @media (min-width:768px) and (min-width:576px) {
-	#homepage #head-artist article h2 {
+	#homepage #speakers article h2 {
 		margin-left: 6.66667%
 	}
 }
 
 @media (min-width:768px) and (min-width:768px) {
-	#homepage #head-artist article h2 {
+	#homepage #speakers article h2 {
 		margin-left: 6.66667%
 	}
 }
 
 @media (min-width:768px) and (min-width:1025px) {
-	#homepage #head-artist article h2 {
+	#homepage #speakers article h2 {
 		margin-left: 6.66667%
 	}
 }
 
 @media (min-width:768px) and (min-width:1200px) {
-	#homepage #head-artist article h2 {
+	#homepage #speakers article h2 {
 		margin-left: 6.66667%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article h2:before {
+	#homepage #speakers article h2:before {
 		display: inline;
 		margin-bottom: 0
 	}
 }
 
-#homepage #head-artist article>div {
+#homepage #speakers article>div {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -13064,7 +13064,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #head-artist article>div {
+	#homepage #speakers article>div {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13073,7 +13073,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div {
+	#homepage #speakers article>div {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -13082,7 +13082,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div {
+	#homepage #speakers article>div {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -13091,7 +13091,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div {
+	#homepage #speakers article>div {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -13100,7 +13100,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist article>div {
+	#homepage #speakers article>div {
 		-webkit-flex: 0 0 50%;
 		-ms-flex: 0 0 50%;
 		flex: 0 0 50%;
@@ -13108,7 +13108,7 @@ div+.constructor2 {
 	}
 }
 
-#homepage #head-artist article>div header p {
+#homepage #speakers article>div header p {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
@@ -13118,7 +13118,7 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13127,7 +13127,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -13136,7 +13136,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -13145,7 +13145,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -13154,7 +13154,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		-webkit-flex: 0 0 66.66667%;
 		-ms-flex: 0 0 66.66667%;
 		flex: 0 0 66.66667%;
@@ -13163,88 +13163,88 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		margin-left: 0
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		margin-left: 16.66667%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		margin-left: 16.66667%
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		margin-left: 16.66667%
 	}
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		margin-left: 16.66667%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div header p {
+	#homepage #speakers article>div header p {
 		margin-bottom: 120px
 	}
 }
 
-#homepage #head-artist article>div:first-child a .img-container:after {
+#homepage #speakers article>div:first-child a .img-container:after {
 	left: -13px;
 	right: auto
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div:nth-child(2) a:first-of-type {
+	#homepage #speakers article>div:nth-child(2) a:first-of-type {
 		margin-bottom: 70px
 	}
 }
 
 @media (min-width:0) {
-	#homepage #head-artist article>div:nth-child(2) a:nth-of-type(2) {
+	#homepage #speakers article>div:nth-child(2) a:nth-of-type(2) {
 		margin-left: 0
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div:nth-child(2) a:nth-of-type(2) {
+	#homepage #speakers article>div:nth-child(2) a:nth-of-type(2) {
 		margin-left: -8.33333%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div:nth-child(2) a:nth-of-type(2) {
+	#homepage #speakers article>div:nth-child(2) a:nth-of-type(2) {
 		margin-left: -20.83333%
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div:nth-child(2) a:nth-of-type(2) {
+	#homepage #speakers article>div:nth-child(2) a:nth-of-type(2) {
 		margin-left: -20.83333%
 	}
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist article>div:nth-child(2) a:nth-of-type(2) {
+	#homepage #speakers article>div:nth-child(2) a:nth-of-type(2) {
 		margin-left: -20.83333%
 	}
 }
 
-#homepage #head-artist article>div:nth-child(2) a:nth-of-type(2) .img-container:after {
+#homepage #speakers article>div:nth-child(2) a:nth-of-type(2) .img-container:after {
 	left: -13px;
 	right: auto
 }
 
-#homepage #head-artist article>div a {
+#homepage #speakers article>div a {
 	display: inline-block;
 	padding-bottom: 80px;
 	-webkit-backface-visibility: hidden;
@@ -13259,11 +13259,11 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div a:hover figure figcaption {
+	#homepage #speakers article>div a:hover figure figcaption {
 		-webkit-transform: translate3d(10px, -10px, 1px);
 		transform: translate3d(10px, -10px, 1px)
 	}
-	#homepage #head-artist article>div a:hover .img-container span {
+	#homepage #speakers article>div a:hover .img-container span {
 		-webkit-transform: scale(1.05);
 		transform: scale(1.05)
 	}
@@ -13294,7 +13294,7 @@ div+.constructor2 {
 	}
 }
 
-#homepage #head-artist article>div a .transition {
+#homepage #speakers article>div a .transition {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -13306,19 +13306,19 @@ div+.constructor2 {
 	will-change: transform
 }
 
-#homepage #head-artist article>div a.reverse .img-container:after {
+#homepage #speakers article>div a.reverse .img-container:after {
 	left: 16px
 }
 
-#homepage #head-artist article>div a.portrait:after {
+#homepage #speakers article>div a.portrait:after {
 	right: 44%
 }
 
-#homepage #head-artist article>div a.portrait .img-container>div {
+#homepage #speakers article>div a.portrait .img-container>div {
 	position: relative
 }
 
-#homepage #head-artist article>div a.portrait .img-container>div:before {
+#homepage #speakers article>div a.portrait .img-container>div:before {
 	display: block;
 	content: "";
 	width: 100%;
@@ -13327,7 +13327,7 @@ div+.constructor2 {
 	z-index: -1
 }
 
-#homepage #head-artist article>div a.portrait .img-container>div:after {
+#homepage #speakers article>div a.portrait .img-container>div:after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -13338,30 +13338,30 @@ div+.constructor2 {
 	z-index: -1
 }
 
-#homepage #head-artist article>div a.portrait .img-container:after {
+#homepage #speakers article>div a.portrait .img-container:after {
 	width: calc(100% - 13px);
 	height: 55%
 }
 
-#homepage #head-artist article>div a.portrait-home:after {
+#homepage #speakers article>div a.portrait-home:after {
 	right: 40%
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div a.portrait-home:after {
+	#homepage #speakers article>div a.portrait-home:after {
 		right: 35%
 	}
 }
 
-#homepage #head-artist article>div a.portrait-home .img-container {
+#homepage #speakers article>div a.portrait-home .img-container {
 	width: 73.5%
 }
 
-#homepage #head-artist article>div a.portrait-home .img-container>div {
+#homepage #speakers article>div a.portrait-home .img-container>div {
 	position: relative
 }
 
-#homepage #head-artist article>div a.portrait-home .img-container>div:before {
+#homepage #speakers article>div a.portrait-home .img-container>div:before {
 	display: block;
 	content: "";
 	width: 100%;
@@ -13370,7 +13370,7 @@ div+.constructor2 {
 	z-index: -1
 }
 
-#homepage #head-artist article>div a.portrait-home .img-container>div:after {
+#homepage #speakers article>div a.portrait-home .img-container>div:after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -13381,20 +13381,20 @@ div+.constructor2 {
 	z-index: -1
 }
 
-#homepage #head-artist article>div a.portrait-home .img-container:after {
+#homepage #speakers article>div a.portrait-home .img-container:after {
 	width: calc(100% - 13px);
 	height: 55%
 }
 
-#homepage #head-artist article>div a.landscape .img-container {
+#homepage #speakers article>div a.landscape .img-container {
 	width: 73.5%
 }
 
-#homepage #head-artist article>div a.landscape .img-container>div {
+#homepage #speakers article>div a.landscape .img-container>div {
 	position: relative
 }
 
-#homepage #head-artist article>div a.landscape .img-container>div:before {
+#homepage #speakers article>div a.landscape .img-container>div:before {
 	display: block;
 	content: "";
 	width: 100%;
@@ -13403,7 +13403,7 @@ div+.constructor2 {
 	z-index: -1
 }
 
-#homepage #head-artist article>div a.landscape .img-container>div:after {
+#homepage #speakers article>div a.landscape .img-container>div:after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -13414,26 +13414,26 @@ div+.constructor2 {
 	z-index: -1
 }
 
-#homepage #head-artist article>div a.landscape .img-container:after {
+#homepage #speakers article>div a.landscape .img-container:after {
 	width: calc(80% - 13px);
 	height: 65%
 }
 
-#homepage #head-artist article>div a .img-container {
+#homepage #speakers article>div a .img-container {
 	width: 65%;
 	padding-right: 12px;
 	position: relative;
 	opacity: 0
 }
 
-#homepage #head-artist article>div a .img-container>div {
+#homepage #speakers article>div a .img-container>div {
 	width: 100%;
 	display: block;
 	position: relative;
 	overflow: hidden
 }
 
-#homepage #head-artist article>div a .img-container>div span {
+#homepage #speakers article>div a .img-container>div span {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -13448,12 +13448,12 @@ div+.constructor2 {
 	transition: transform .2s cubic-bezier(.455, .03, .515, .955), -webkit-transform .2s cubic-bezier(.455, .03, .515, .955)
 }
 
-#homepage #head-artist article>div a .img-container img {
+#homepage #speakers article>div a .img-container img {
 	width: 100%;
 	height: auto
 }
 
-#homepage #head-artist article>div a .img-container:before {
+#homepage #speakers article>div a .img-container:before {
 	position: absolute;
 	left: -1px;
 	top: -1px;
@@ -13462,7 +13462,7 @@ div+.constructor2 {
 	background-color: #fff
 }
 
-#homepage #head-artist article>div a .img-container:after {
+#homepage #speakers article>div a .img-container:after {
 	content: "";
 	position: absolute;
 	z-index: -1;
@@ -13474,7 +13474,7 @@ div+.constructor2 {
 	box-shadow: 20px 51px 51px rgba(0, 0, 0, .1)
 }
 
-#homepage #head-artist article>div a figure {
+#homepage #speakers article>div a figure {
 	position: relative;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -13484,21 +13484,21 @@ div+.constructor2 {
 	align-items: flex-start
 }
 
-#homepage #head-artist article>div a figure figcaption {
+#homepage #speakers article>div a figure figcaption {
 	position: relative;
 	transition: -webkit-transform .3s cubic-bezier(.455, .03, .515, .955);
 	transition: transform .3s cubic-bezier(.455, .03, .515, .955);
 	transition: transform .3s cubic-bezier(.455, .03, .515, .955), -webkit-transform .3s cubic-bezier(.455, .03, .515, .955)
 }
 
-#homepage #head-artist article>div a figure figcaption div {
+#homepage #speakers article>div a figure figcaption div {
 	position: absolute;
 	left: 0;
 	top: 0;
 	opacity: 0
 }
 
-#homepage #head-artist article>div a figure figcaption div h3 {
+#homepage #speakers article>div a figure figcaption div h3 {
 	font-weight: 400;
 	font-size: 3em;
 	line-height: 1em;
@@ -13519,54 +13519,54 @@ div+.constructor2 {
 }
 
 @media (min-width:0) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		margin-left: -66.66667%
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		margin-left: -50%
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		margin-left: -50%
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		margin-left: -50%
 	}
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		margin-left: -50%
 	}
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		font-size: 2.5em
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		font-size: 3.5em
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div a figure figcaption div h3 {
+	#homepage #speakers article>div a figure figcaption div h3 {
 		font-size: 5em
 	}
 }
 
-#homepage #head-artist article>div a figure figcaption div time {
+#homepage #speakers article>div a figure figcaption div time {
 	font-size: 1.4em;
 	display: block;
 	white-space: nowrap;
@@ -13574,42 +13574,42 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div a figure figcaption div time {
+	#homepage #speakers article>div a figure figcaption div time {
 		margin-left: 10px
 	}
 }
 
-#homepage #head-artist article>div a figure figcaption div time .day {
+#homepage #speakers article>div a figure figcaption div time .day {
 	display: block;
 	letter-spacing: .02em;
 	margin-bottom: 3px
 }
 
-#homepage #head-artist article>div a figure figcaption div time .hour {
+#homepage #speakers article>div a figure figcaption div time .hour {
 	display: block;
 	letter-spacing: .05em
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div a figure figcaption div time {
+	#homepage #speakers article>div a figure figcaption div time {
 		font-size: 1.1em
 	}
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div a figure figcaption div time {
+	#homepage #speakers article>div a figure figcaption div time {
 		font-size: 1.3em
 	}
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div a figure figcaption div time {
+	#homepage #speakers article>div a figure figcaption div time {
 		font-size: 1.4em
 	}
 }
 
 @media (min-width:0) {
-	#homepage #head-artist article>div a {
+	#homepage #speakers article>div a {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13618,7 +13618,7 @@ div+.constructor2 {
 }
 
 @media (min-width:576px) {
-	#homepage #head-artist article>div a {
+	#homepage #speakers article>div a {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13627,7 +13627,7 @@ div+.constructor2 {
 }
 
 @media (min-width:768px) {
-	#homepage #head-artist article>div a {
+	#homepage #speakers article>div a {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13636,7 +13636,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1025px) {
-	#homepage #head-artist article>div a {
+	#homepage #speakers article>div a {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13645,7 +13645,7 @@ div+.constructor2 {
 }
 
 @media (min-width:1200px) {
-	#homepage #head-artist article>div a {
+	#homepage #speakers article>div a {
 		-webkit-flex: 0 0 100%;
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
@@ -13654,7 +13654,7 @@ div+.constructor2 {
 }
 
 @media (max-width:1199.98px) {
-	#homepage #head-artist article>div a {
+	#homepage #speakers article>div a {
 		-ms-flex-preferred-size: auto;
 		flex-basis: auto
 	}
@@ -15066,9 +15066,9 @@ form.needs-validation button {
 #homepage #contact article form.needs-validation input.valid~p,
 #homepage #contact article form.needs-validation input:not(.empty):valid~p,
 #homepage #contact article form.needs-validation textarea:not(.empty):valid~p,
-#homepage #head-artist form.needs-validation article>input.valid~div:first-child,
-#homepage #head-artist form.needs-validation article>input:not(.empty):valid~div:first-child,
-#homepage #head-artist form.needs-validation article>textarea:not(.empty):valid~div:first-child,
+#homepage #speakers form.needs-validation article>input.valid~div:first-child,
+#homepage #speakers form.needs-validation article>input:not(.empty):valid~div:first-child,
+#homepage #speakers form.needs-validation article>textarea:not(.empty):valid~div:first-child,
 #stages-programme article form.needs-validation input.valid~h2,
 #stages-programme article form.needs-validation input:not(.empty):valid~h2,
 #stages-programme article form.needs-validation textarea:not(.empty):valid~h2,
@@ -15084,9 +15084,9 @@ form.needs-validation #cross-selling>div div:nth-child(2) textarea:not(.empty):v
 form.needs-validation #homepage #contact article input.valid~p,
 form.needs-validation #homepage #contact article input:not(.empty):valid~p,
 form.needs-validation #homepage #contact article textarea:not(.empty):valid~p,
-form.needs-validation #homepage #head-artist article>input.valid~div:first-child,
-form.needs-validation #homepage #head-artist article>input:not(.empty):valid~div:first-child,
-form.needs-validation #homepage #head-artist article>textarea:not(.empty):valid~div:first-child,
+form.needs-validation #homepage #speakers article>input.valid~div:first-child,
+form.needs-validation #homepage #speakers article>input:not(.empty):valid~div:first-child,
+form.needs-validation #homepage #speakers article>textarea:not(.empty):valid~div:first-child,
 form.needs-validation #stages-programme article input.valid~h2,
 form.needs-validation #stages-programme article input:not(.empty):valid~h2,
 form.needs-validation #stages-programme article textarea:not(.empty):valid~h2,
@@ -15167,13 +15167,13 @@ form.needs-validation .form-success {
 #artist-container section article #artist-date form.needs-validation a,
 #cross-selling>div div:nth-child(2) form.needs-validation button,
 #homepage #contact article form.needs-validation p,
-#homepage #head-artist form.needs-validation article>div:first-child,
+#homepage #speakers form.needs-validation article>div:first-child,
 #stages-programme article form.needs-validation h2,
 .akcssc-newsletter button form.needs-validation .label,
 form.needs-validation #artist-container section article #artist-date a,
 form.needs-validation #cross-selling>div div:nth-child(2) button,
 form.needs-validation #homepage #contact article p,
-form.needs-validation #homepage #head-artist article>div:first-child,
+form.needs-validation #homepage #speakers article>div:first-child,
 form.needs-validation #stages-programme article h2,
 form.needs-validation .akcssc-newsletter button .label,
 form.needs-validation .datepicker input~.icon,
@@ -15204,13 +15204,13 @@ header#main-header form.needs-validation #search {
 #artist-container section article #artist-date form.needs-validation a:before,
 #cross-selling>div div:nth-child(2) form.needs-validation button:before,
 #homepage #contact article form.needs-validation p:before,
-#homepage #head-artist form.needs-validation article>div:first-child:before,
+#homepage #speakers form.needs-validation article>div:first-child:before,
 #stages-programme article form.needs-validation h2:before,
 .akcssc-newsletter button form.needs-validation .label:before,
 form.needs-validation #artist-container section article #artist-date a:before,
 form.needs-validation #cross-selling>div div:nth-child(2) button:before,
 form.needs-validation #homepage #contact article p:before,
-form.needs-validation #homepage #head-artist article>div:first-child:before,
+form.needs-validation #homepage #speakers article>div:first-child:before,
 form.needs-validation #stages-programme article h2:before,
 form.needs-validation .akcssc-newsletter button .label:before,
 form.needs-validation .datepicker input~.icon:before,
@@ -15237,13 +15237,13 @@ header#main-header form.needs-validation #search:before {
 #artist-container section article #artist-date form.needs-validation .datepicker input~a,
 #cross-selling>div div:nth-child(2) form.needs-validation .datepicker input~button,
 #homepage #contact article form.needs-validation .datepicker input~p,
-#homepage #head-artist form.needs-validation .datepicker article>input~div:first-child,
+#homepage #speakers form.needs-validation .datepicker article>input~div:first-child,
 #stages-programme article form.needs-validation .datepicker input~h2,
 .akcssc-newsletter button form.needs-validation .datepicker input~.label,
 form.needs-validation .datepicker #artist-container section article #artist-date input~a,
 form.needs-validation .datepicker #cross-selling>div div:nth-child(2) input~button,
 form.needs-validation .datepicker #homepage #contact article input~p,
-form.needs-validation .datepicker #homepage #head-artist article>input~div:first-child,
+form.needs-validation .datepicker #homepage #speakers article>input~div:first-child,
 form.needs-validation .datepicker #stages-programme article input~h2,
 form.needs-validation .datepicker .akcssc-newsletter button input~.label,
 form.needs-validation .datepicker header#main-header #search-mobile input~button,
@@ -15286,13 +15286,13 @@ form.needs-validation.was-validated .custom-select:invalid {
 #artist-container section article #artist-date form.needs-validation.was-validated .form-control:valid~a,
 #cross-selling>div div:nth-child(2) form.needs-validation.was-validated .form-control:valid~button,
 #homepage #contact article form.needs-validation.was-validated .form-control:valid~p,
-#homepage #head-artist form.needs-validation.was-validated article>.form-control:valid~div:first-child,
+#homepage #speakers form.needs-validation.was-validated article>.form-control:valid~div:first-child,
 #stages-programme article form.needs-validation.was-validated .form-control:valid~h2,
 .akcssc-newsletter button form.needs-validation.was-validated .form-control:valid~.label,
 form.needs-validation.was-validated #artist-container section article #artist-date .form-control:valid~a,
 form.needs-validation.was-validated #cross-selling>div div:nth-child(2) .form-control:valid~button,
 form.needs-validation.was-validated #homepage #contact article .form-control:valid~p,
-form.needs-validation.was-validated #homepage #head-artist article>.form-control:valid~div:first-child,
+form.needs-validation.was-validated #homepage #speakers article>.form-control:valid~div:first-child,
 form.needs-validation.was-validated #stages-programme article .form-control:valid~h2,
 form.needs-validation.was-validated .akcssc-newsletter button .form-control:valid~.label,
 form.needs-validation.was-validated .datepicker .form-control:valid~input~.icon,
@@ -15334,13 +15334,13 @@ form.needs-validation.was-validated .form-control:invalid~label {
 #artist-container section article #artist-date form.needs-validation.was-validated .form-control:invalid~a,
 #cross-selling>div div:nth-child(2) form.needs-validation.was-validated .form-control:invalid~button,
 #homepage #contact article form.needs-validation.was-validated .form-control:invalid~p,
-#homepage #head-artist form.needs-validation.was-validated article>.form-control:invalid~div:first-child,
+#homepage #speakers form.needs-validation.was-validated article>.form-control:invalid~div:first-child,
 #stages-programme article form.needs-validation.was-validated .form-control:invalid~h2,
 .akcssc-newsletter button form.needs-validation.was-validated .form-control:invalid~.label,
 form.needs-validation.was-validated #artist-container section article #artist-date .form-control:invalid~a,
 form.needs-validation.was-validated #cross-selling>div div:nth-child(2) .form-control:invalid~button,
 form.needs-validation.was-validated #homepage #contact article .form-control:invalid~p,
-form.needs-validation.was-validated #homepage #head-artist article>.form-control:invalid~div:first-child,
+form.needs-validation.was-validated #homepage #speakers article>.form-control:invalid~div:first-child,
 form.needs-validation.was-validated #stages-programme article .form-control:invalid~h2,
 form.needs-validation.was-validated .akcssc-newsletter button .form-control:invalid~.label,
 form.needs-validation.was-validated .datepicker .form-control:invalid~input~.icon,

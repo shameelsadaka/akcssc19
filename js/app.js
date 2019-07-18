@@ -802,7 +802,7 @@ webpackJsonp([1], {
                         document.querySelector("#left-circle"), document.querySelector("#right-circle");
                         var t = document.querySelectorAll(".svg-circle g:nth-child(1)"),
                             i = document.querySelectorAll(".svg-circle g:nth-child(2)");
-                        this.headArtists = document.querySelectorAll("#head-artist .artist"), y.isMobile() || (this.rellax = new N.a("#homepage .rellax", {
+                        this.headArtists = document.querySelectorAll("#speakers .artist"), y.isMobile() || (this.rellax = new N.a("#homepage .rellax", {
                             speed: -2,
                             center: !0,
                             round: !1,
@@ -909,7 +909,8 @@ webpackJsonp([1], {
                 }, {
                     key: "onNavigation",
                     value: function(e) {
-                        return e.preventDefault(), this.navigationCallback(e.currentTarget.pathname), !1
+                        return true;
+                        // return e.preventDefault(), this.navigationCallback(e.currentTarget.pathname), !1
                     }
                 }, {
                     key: "onArtistEnter",
@@ -1925,7 +1926,6 @@ webpackJsonp([1], {
             }, {
                 key: "onNavigationClick",
                 value: function(e) {
-                    return  true;
                 }
             }, {
                 key: "switchPage",
