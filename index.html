@@ -839,21 +839,14 @@
                 var diff = elementY - startingY;
                 var start;
 
-                // Bootstrap our animation - it will get called right before next frame shall be rendered.
                 window.requestAnimationFrame(function step(timestamp) {
                     if (!start) start = timestamp;
-                    // Elapsed milliseconds since start of scrolling.
-                    var time = timestamp - start;
-                    // Get percent of completion in range [0, 1].
-                    xt = time/duration;
-                    at = 2;
-                    var percent = Math.min(xt**at/(xt**at+(1-xt)**at), 1);
-
-                    window.scrollTo(0, startingY + diff * percent);
-
-                    // Proceed with animation as long as we wanted it to.
-                    if (time < duration) {
-                    window.requestAnimationFrame(step);
+                    var xt = (timestamp - start) / duration;
+                    alpha = 2;
+                    var percent = Math.min(xt**alpha/(xt**alpha+(1-xt)**alpha), 1);
+                        window.scrollTo(0, startingY + diff * percent);
+                    if (xt < 1) {
+                        window.requestAnimationFrame(step);
                     }
                 })
             }
@@ -863,12 +856,15 @@
                 var a = e.currentTarget;
                 var href;
                 if(href = a.getAttribute("href")){
-                    if(href[0] == "#"){
+                    if(href.legth != 1 && href[0] == "#"){
                         var targets = document.querySelectorAll(href);
                         if(targets.length > 0){
                             var eY = targets[0].getBoundingClientRect().top;
-                            doScrolling(eY > 60 ? eY-60:eY,eY/4.2);
-                        }
+                            doScrolling(eY > 80 ? eY-80:eY,eY/4);
+                        }   
+                    }
+                    if(document.getElementById("main-header").className.match(/\bopen\b/)){
+                        document.getElementById("hamburger").click();   
                     }
                 }
             }
