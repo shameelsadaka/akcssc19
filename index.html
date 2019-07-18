@@ -816,7 +816,6 @@
                 });
             }
             var showFadeIn = function(){
-                console.clear();
                 var a = window.innerHeight;
 
                 var x = document.querySelectorAll(".fade-in");
@@ -846,7 +845,9 @@
                     // Elapsed milliseconds since start of scrolling.
                     var time = timestamp - start;
                     // Get percent of completion in range [0, 1].
-                    var percent = Math.min(time / duration, 1);
+                    xt = time/duration;
+                    at = 2;
+                    var percent = Math.min(xt**at/(xt**at+(1-xt)**at), 1);
 
                     window.scrollTo(0, startingY + diff * percent);
 
@@ -858,14 +859,24 @@
             }
 
 
+            var onClickLink = function(e){
+                var a = e.currentTarget;
+                var href;
+                if(href = a.getAttribute("href")){
+                    if(href[0] == "#"){
+                        var targets = document.querySelectorAll(href);
+                        if(targets.length > 0){
+                            var eY = targets[0].getBoundingClientRect().top;
+                            doScrolling(eY > 60 ? eY-60:eY,eY/4.2);
+                        }
+                    }
+                }
+            }
 
-            // var links = document.querySelectorAll("a");
-            // for (var i = 0; i < links.length; i++) {
-            //     links[i].addEventListener("click","")
-            // }
-            // var onClickLink = function(){
-            //     alert(links[i].getAttribute("href"));
-            // }
+            var links = document.querySelectorAll("a");
+            for (var i = 0; i < links.length; i++) {
+                links[i].addEventListener("click",onClickLink)
+            }
             
         </script>
         
