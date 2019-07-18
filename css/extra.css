@@ -175,7 +175,7 @@ div.mouse-container{
 /**
 ******* Speakers ******
 */
-#homepage #head-artist article>div a {
+#homepage #speakers article>div a {
     cursor:auto;
 }
 .figure-details{
@@ -211,15 +211,15 @@ div.mouse-container{
 }
 
 @media (min-width:575.98px) {
-    #homepage #head-artist article>div a {
+    #homepage #speakers article>div a {
         margin-top: 20%;
     }
-    #homepage #head-artist article>div:nth-child(1) a:nth-of-type(1),
-    #homepage #head-artist article>div:nth-child(2) a:nth-of-type(2),
-    #homepage #head-artist article>div:nth-child(2) a:nth-of-type(1) {
+    #homepage #speakers article>div:nth-child(1) a:nth-of-type(1),
+    #homepage #speakers article>div:nth-child(2) a:nth-of-type(2),
+    #homepage #speakers article>div:nth-child(2) a:nth-of-type(1) {
         margin-top: 0;
     }    
-    #homepage #head-artist article>div:nth-child(1) a:nth-of-type(2) {
+    #homepage #speakers article>div:nth-child(1) a:nth-of-type(2) {
         margin-top: 75%;
     }    
 }
