@@ -368,6 +368,26 @@ div.mouse-container{
 }
 
 
+/**
+****** Contact ******
+*/
+
+
+#contact div{
+    font-size:15px;
+    line-height: 1.5;
+}
+
+#contact-box{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    margin:60px 0 30px;
+}
+
+#contact-box > div{
+    flex:1;
+}
 
 /* Footer */
 
@@ -375,3 +395,6 @@ footer .register-now{
     border: 2px solid #FFFFFF;
     padding: 10px 14px;
 }
+
+
+
