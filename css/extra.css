@@ -374,8 +374,8 @@ div.mouse-container{
 
 
 #contact div{
-    font-size:15px;
-    line-height: 1.5;
+    font-size:16px;
+    line-height: 1.6;
 }
 
 #contact-box{
@@ -387,6 +387,13 @@ div.mouse-container{
 
 #contact-box > div{
     flex:1;
+}
+
+#contact-box > div b{
+    display: inline-block;
+    margin-bottom:0;
+    padding: 0 12px 4px;
+    border-bottom:1px solid #EEEEEE;
 }
 
 /* Footer */
