@@ -3499,7 +3499,7 @@ footer #footer-container #footer-row nav#social-media ul a:hover {
 		-ms-flex: 0 0 25%;
 		flex: 0 0 25%;
 		max-width: 25%;
-		max-width: 300px;
+		max-width: 240px;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column
@@ -3792,6 +3792,11 @@ footer #footer-container #footer-row nav ul:first-child {
 	footer #footer-container #footer-row nav ul:first-child {
 		margin-left: 25%
 	}
+}
+
+
+footer #footer-container #footer-row nav ul:nth-child(2) {
+	margin-left: 50px;
 }
 
 footer #footer-container #footer-row nav ul:nth-child(2) {

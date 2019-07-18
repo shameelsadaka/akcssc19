@@ -1380,18 +1380,11 @@ webpackJsonp([1], {
                 }, {
                     key: "loadPage",
                     value: function(e) {
-                        this.cleanChild(), this.contentLoader.loadPage(e, 2), n()("#subNavContainer li").each(function(t, i) {
-                            n()("a", i)[0].pathname === e ? n()(i).toggleClass("active", !0) : n()(i).toggleClass("active", !1)
-                        })
                     }
                 }, {
                     key: "onNavClick",
                     value: function(e) {
-                        return e.preventDefault(), this.currentPageLabel.length && this.currentPageLabel.text("- " + n()(e.currentTarget).text()), this.contentLoader.setState(e.currentTarget.pathname), this.loadPage(e.currentTarget.pathname), setTimeout(function() {
-                            L.c.to(window, .35, {
-                                scrollTo: 0
-                            })
-                        }, 0), !1
+                    
                     }
                 }, {
                     key: "cleanChild",
@@ -1815,9 +1808,8 @@ webpackJsonp([1], {
             G = function() {
                 function e(t, i) {
                     l()(this, e), this.header = document.querySelector("#main-header");
-                    var s = this.header.querySelector("#hamburger"),
-                        o = this.header.querySelector("#navigation-level-2 button");
-                    s.addEventListener("click", this.onToggleNav.bind(this)), o.addEventListener("click", this.onBack.bind(this)), this.nav = this.header.querySelector("#main-header nav"), this.onSearchBinded = this.onSearch.bind(this), n()(".language-chooser a").bind("click", this.onSwitchLang),  this.wave = t, this.search = i, this.isNavOpen = !1, this.isSubNavOpen = !1, this.rellax = new N.a("#akcssc-trame svg", {
+                    var s = this.header.querySelector("#hamburger");
+                    s.addEventListener("click", this.onToggleNav.bind(this)),  this.nav = this.header.querySelector("#main-header nav"), this.onSearchBinded = this.onSearch.bind(this), n()(".language-chooser a").bind("click", this.onSwitchLang),  this.wave = t, this.search = i, this.isNavOpen = !1, this.isSubNavOpen = !1, this.rellax = new N.a("#akcssc-trame svg", {
                         speed: 1,
                         center: !0,
                         round: !1,
@@ -1933,25 +1925,17 @@ webpackJsonp([1], {
             }, {
                 key: "onNavigationClick",
                 value: function(e) {
-                    if (e.preventDefault(), this.header.isOpen() && e.currentTarget.parentElement.hasAttribute("id")) {
-                        var t = e.currentTarget.parentElement.getAttribute("id").split("menu-item-")[1];
-                        if (this.header.hasSubNav(t)) return this.header.toggleSubNav(t), !1;
-                        this.header.onToggleNav()
-                    } else this.header.isOpen() && this.header.onToggleNav();
-                    return this.switchPage(e.currentTarget.pathname), !1
+                    return  true;
                 }
             }, {
                 key: "switchPage",
                 value: function(e) {
-                    var t = this;
-                    "/" === e && (e = "/" + n()("html").attr("lang").split("-")[0] + "/"), this.currentPage ? (this.nextPath = e, this.currentPage.hide(function() {
-                        t.currentPage.destroy(), t.currentPage = null, t.loadNextPage(t.nextPath)
-                    })) : this.loadNextPage(e)
+                    return true;
                 }
             }, {
                 key: "loadNextPage",
                 value: function(e) {
-                    this.contentLoader.setState(e), this.contentLoader.loadPage(e, 1)
+                    return true;
                 }
             }, {
                 key: "initPage",

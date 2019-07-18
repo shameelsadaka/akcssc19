@@ -366,3 +366,12 @@ div.mouse-container{
     margin:0 0 20px 0;
     padding: 0;
 }
+
+
+
+/* Footer */
+
+footer .register-now{
+    border: 2px solid #FFFFFF;
+    padding: 10px 14px;
+}
