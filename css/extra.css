@@ -360,7 +360,15 @@ div.mouse-container{
 }
 
 
-
+#programs .stay-tuned{
+color: #AAAAAA;
+display: block;
+font-family: Oswald, sans-serif;
+font-size: 3.8rem;
+font-weight: 200;
+text-align: center;
+transform: translateY(-20%);
+}
 
 /**
 ****** About ******
