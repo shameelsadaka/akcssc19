@@ -361,10 +361,10 @@ div.mouse-container{
 
 
 #programs .stay-tuned{
-color: #AAAAAA;
+color: #333333;
 display: block;
 font-family: Oswald, sans-serif;
-font-size: 3.8rem;
+font-size: 2.8rem;
 font-weight: 200;
 text-align: center;
 transform: translateY(-20%);
@@ -450,6 +450,9 @@ transform: translateY(-20%);
 footer .register-now{
     border: 2px solid #FFFFFF;
     padding: 10px 14px;
+    font-size:1.1em!important;
+    text-align:center;
+    display: block;
 }
 
 
@@ -507,4 +510,19 @@ footer .register-now{
 	.line-effect.rg10:hover span.label {
 		color: #fff
 	}
+}
+
+
+
+.register-button span{
+    display: block!important;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.9;
+    line-height: 1.4;
+    color:inherit!important;
+}
+
+.reg_not_open:before{
+    margin-top: -15px!important;
 }
