@@ -263,9 +263,9 @@
             </section>
             <section class="template-section">
                 <div id="intro">
-                        <h1>Technology Evolves when  We Do</h1>
+                        <h1>Technology Evolves When We Do</h1>
                         <p>
-                            Themed on “Evolution of Technology”, this 5th edition of AKCSSC strives to provide its vibrant student audience with an experience before and beyond their times. From speakers spanning across the globe, to unique hands-on sessions, this tech-oriented event is aimed at making learning technology fun-as it should be!
+                            Themed on “<b>Evolution of Technology</b>”, this 5th edition of AKCSSC strives to provide its vibrant student audience with an experience before and beyond their times. From speakers spanning across the globe, to unique hands-on sessions, this tech-oriented event is aimed at making the learning of technology fun! - as it should be!
                         </p>
                 </div>
             </section>
@@ -515,10 +515,10 @@
                 <article class="constructor5 order">
                     <div>
                         <h3>About</h3>
-                        <h2>IEEE All Kerala Computer Society Student Congress</h2>
+                        <h2>IEEE All Kerala Computer Society Student Convention</h2>
                         <p>
-                            AKCSSC '19, the fifth edition of All Kerala Computer Society Student Congress will be hosted by St. Joseph's College of Engineering and Technology, Palai. With an expected count of 200 participants, AKCSSC’19 is themed on “The Evolution of Technology” and will be an unprecedented congregation of diverse speakers from across the glob. <br/><br/>
-                        <p></p>
+                            AKCSSC '19, the fifth edition of All Kerala Computer Society Student Convention will be hosted by St. Joseph's College of Engineering and Technology, Palai. With an expected count of 200 participants, AKCSSC’19 is themed on “<b>The Evolution of Technology</b>” and will be an unprecedented congregation of diverse speakers from across the globe. <br/><br/>
+                        </p>
                     </div>
                     <div>
                         <span class="b-lazy b-loaded" style="background-image: url(images/akcssc18.jpg);"></span>
@@ -636,12 +636,12 @@
             </section>
             <section id="sponsors" class="template-section">
                 <div id="partner">
-                    <h2>Collaborators</h2>
+                    <h2 class="text-center">Collaborators</h2>
                     <article id="partner-logos">
                         <div>
-                            <div class="partner-logo"><a target="_blank" href="#" title="Sponsor Name"><span style="background-image:url(images/logo/ieee.jpg);"></span></a></div><!-- 
-                             --><div class="partner-logo"><a target="_blank" href="#" title="Sponsor Name"><span style="background-image:url(images/logo/ieeecs.png);"></span></a></div><!-- 
-                            --><div class="partner-logo"><a target="_blank" href="#" title="Sponsor Name"><span style="background-image:url(images/logo/sjcet.jpg);"></span></a></div>
+                            <div class="partner-logo"><div>Organized By</div><a target="_blank" href="#" title="IEEE"><span style="background-image:url(images/logo/ieee.jpg);"></span></a></div><!-- 
+                             --><div class="partner-logo"><div>Organized By</div><a target="_blank" href="#" title="IEEE Computer Society"><span style="background-image:url(images/logo/ieeecs.png);"></span></a></div><!-- 
+                            --><div class="partner-logo"><div>Venue Partner</div><a target="_blank" href="#" title="SJCET Palai"><span style="background-image:url(images/logo/sjcet.jpg);"></span></a></div>
                         </div>
                     </article>              
                 </div>
@@ -653,7 +653,7 @@
                         <div>
                             <span class="contact-title">Secretary</span><br/>
                             <b>Jishnu Krishna</b><br/>
-                            mr.jishnu.k@ieee.org5<br/>
+                            mr.jishnu.k@ieee.org<br/>
                             +91-974546451
                         </div>
                         
@@ -761,7 +761,7 @@
                         </ul>
                         
                         <div class="copyright desktop">
-                            <a href="https://shameelsdaka.github.io" target="_blank"><span>Website design by<br/>Shameel Kadannamanna</span></a>
+                            <a href="https://shameelsadaka.github.io" target="_blank"><span>Website design by<br/>Shameel Kadannamanna</span></a>
                         </div>
                     </nav>
         <address>
@@ -829,7 +829,7 @@
                     var xt = (timestamp - start) / duration;
                     alpha = 2;
                     var percent = Math.min(xt**alpha/(xt**alpha+(1-xt)**alpha), 1);
-                        window.scrollTo(0, startingY + diff * percent);
+                    window.scrollTo(0, startingY + diff * percent);
                     if (xt < 1) {
                         window.requestAnimationFrame(step);
                     }
@@ -844,8 +844,9 @@
                     if(href.legth != 1 && href[0] == "#"){
                         var targets = document.querySelectorAll(href);
                         if(targets.length > 0){
-                            var eY = targets[0].getBoundingClientRect().top;
-                            doScrolling(eY > 80 ? eY-80:eY,eY/4);
+                            var eY = targets[0].getBoundingClientRect().top + window.pageYOffset;
+                            console.log(eY);
+                            doScrolling(eY > 80 ? eY-80:eY,Math.abs(eY/4));
                         }   
                     }
                     if(document.getElementById("main-header").className.match(/\bopen\b/)){
@@ -860,9 +861,9 @@
             }
             
         
-            var registerationOpenDate = new Date("Jul 26, 2019 17:00:00").getTime();         
-            var registerationCounter = setInterval(function() {
-                var t = (registerationOpenDate - new Date().getTime())/1000;
+            var registrationOpenDate = new Date("Jul 25, 2019 17:00:00").getTime();         
+            var registrationCounter = setInterval(function() {
+                var t = (registrationOpenDate - new Date().getTime())/1000;
                 var rbtn = document.querySelectorAll(".register-button")
                 var xtml = "Register Now";
                 if(t>0){
@@ -870,7 +871,7 @@
                     var mins = Math.floor((t / 60)%60);
                     var secs = Math.floor((t % 60));
 
-                    xtml = "Registeration Opens in <span>";
+                    xtml = "Registration Opens in <span>";
                     xtml += hours + "h ";
                     xtml += mins + "m ";
                     xtml += secs + "s ";
@@ -879,7 +880,7 @@
                 }
                 else{
                     document.getElementById("billetterie-link").classList.remove("reg_not_open");
-                    clearTimeout(registerationCounter);
+                    clearTimeout(registrationCounter);
                 }
                 for (var i = 0; i < rbtn.length; ++i) {
                     rbtn[i].innerHTML = xtml;
@@ -888,12 +889,15 @@
 
 
             function register(){
-                registeration_link = false;
-                if(!registeration_link || registeration_link == ""){
-                    alert("Registeration is not open");
+                registration_link = "";
+                if(!registration_link || registration_link == ""){
+                    alert("Registration is not open");
+                }
+                else if(registrationOpenDate - new Date().getTime() > 0){
+                    alert("Registration is not open");
                 }
                 else{
-                    window.location.href = registeration_link;
+                    window.location.href = registration_link;
                 }
                 return false;
             }

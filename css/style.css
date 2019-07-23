@@ -8936,7 +8936,7 @@ header#main-header #partners h2#search {
 	min-height: 1px;
 	padding-right: 10px;
 	padding-left: 10px;
-	font-size: 4em;
+	font-size: 5em;
 	margin-top: 50px;
 	margin-bottom: 40px
 }
@@ -18913,7 +18913,7 @@ form.needs-validation .radio+.radio {
 	}
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
 	#partner #partner-logos>div {
 		-webkit-flex: 0 0 91.66667%;
 		-ms-flex: 0 0 91.66667%;
@@ -18938,7 +18938,7 @@ form.needs-validation .radio+.radio {
 		flex: 0 0 91.66667%;
 		max-width: 91.66667%
 	}
-}
+} */
 
 @media (min-width:0) {
 	#partner #partner-logos>div {
@@ -18952,7 +18952,7 @@ form.needs-validation .radio+.radio {
 	}
 }
 
-@media (min-width:768px) {
+/* @media (min-width:768px) {
 	#partner #partner-logos>div {
 		margin-left: 8.33333%
 	}
@@ -18968,7 +18968,7 @@ form.needs-validation .radio+.radio {
 	#partner #partner-logos>div {
 		margin-left: 8.33333%
 	}
-}
+} */
 
 #partner #partner-logos>div .partner-logo {
 	position: relative;

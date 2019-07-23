@@ -389,6 +389,25 @@ transform: translateY(-20%);
     }
 }
 
+/**
+****** Sponsors *****
+*/
+#sponsors{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+#partner-logos div{
+    text-align: center;
+}
+
+#partner .partner-logo>a {
+    justify-content: center;
+}
+#partner .partner-logo>div {
+    margin: 5px 0 20px;
+    color: #777777;
+    font-size:13px;
+}
 
 /**
 ****** Contact ******
