@@ -542,6 +542,9 @@ footer .register-now{
     color:inherit!important;
 }
 
-.reg_not_open:before{
-    margin-top: -15px!important;
+
+@media (min-width:1020px) {
+	.reg_not_open:before{
+        margin-top: -15px!important;
+    }
 }
